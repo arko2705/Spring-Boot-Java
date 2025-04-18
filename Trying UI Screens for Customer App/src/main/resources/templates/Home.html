@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{Layout}">
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <div layout:fragment="content">
+        <h1>Welcome to User Management System</h1>
+        <p>Go to <a th:href="@{/users}">Users Page</a> to manage users.</p>
+    </div>
+</body>
+</html>
